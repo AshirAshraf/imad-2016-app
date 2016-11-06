@@ -10,6 +10,8 @@ body {
 }
 h2 {
     position: absolute;
+    top: 100px;
+    left: 860px;
 }
 .text-big {
     font-size: 300%;
