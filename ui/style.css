@@ -7,7 +7,9 @@ body {
 .center {
     text-align: center;
 }
-
+h2 {
+    position: absolute;
+}
 .text-big {
     font-size: 300%;
 }
