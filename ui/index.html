@@ -1,55 +1,57 @@
-	#headerbar {
-		padding-top: 0 ; 	    
-		height: 100px;
-		background: #545454;
-  	}	
-	
-	#headerbar h2{
-		position: relative;
-		padding-top: 0;
-		margin: 0 auto;
-	}
-	
-	body {
-		font-family: Helvetica;
-		background-color: ##FEFEFE;
-		margin: 0;
-		padding: 0;
-	}
+<!doctype html>
+<html>
+    <head>
+        <link href="/ui/style.css" rel="stylesheet" />
+		
+    </head>
 
-	.center {
-		text-align: center;
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	h2 {
-		/*! position: relative; */
-		text-align: center;
-		color: white;
-	}
-	.text-big {
-		font-size: 300%;
-	}
-
-	.bold {
-		font-weight: bold;
-	}
+	<meta name="viewport" content="width-device-width", initial-scale=1"/>
 	
-	#sidebar { 
-		float: left; width: 221px; 
-	}
-	#avmenu { 
-		clear: left; padding: 25px 0 0; margin: 0; 
-	}
-	#avmenu ul { 
-		list-style: none; margin: 0; padding: 0; 
-	}
-	#avmenu li {
-		list-style: none; 
-	}
-	#avmenu li a { 
-		font-weight: normal; text-decoration: none; color: #fff; font-family: "PT Sans", "Myriad Pro", Arial, Helvetica, sans-serif; font-size: 14px; display: block; line-height: 1; margin: 0; padding: 11px 5px 12px 24px; 
-	}
-	#avmenu li#active a, #avmenu a:hover {
-		color: #fff; background: #545454; 
-	}
+	<div id = 'headerbar'>
+		<!--	<img src = "header.jpg" > -->
+		<h2> I am awesome as heck </h2>			
+	</div>
+
+    <body>
+		 <div id="sidebar">
+			<div id="avmenu"><ul class="wsite-menu-default">
+		<li style="position: relative;" id="active" class="wsite-menu-item-wrap wsite-nav-1">
+			<a style="position: relative;" href="/" class="wsite-menu-item">
+				Home
+			</a>
+			
+
+		</li>
+		<li style="position: relative;" id="pg396200366181589289" class="wsite-menu-item-wrap wsite-nav-2">
+			<a style="position: relative;" href="/how-to-root.html" class="wsite-menu-item">
+				How To Root
+			</a>
+			
+
+		
+		<li style="position: relative;" id="pg538858567593584710" class="wsite-menu-item-wrap wsite-nav-15">
+			<a style="position: relative;" href="/installing-cm13.html" target="_blank" class="wsite-menu-item">
+				Installing CM 13
+			</a>
+			
+
+		</li>
+</ul>
+</div>
+</div>
+        <div class ="center">
+			<img src="pic.png"  /> 
+			<br/>
+			<hr/>
+			<button id="counter">Click here</button> for increasing <span id="count"/>100</span>.
+			
+			<hr/>
+			<input id="name" type="text" placeholder="Name"></input>
+			<input id="submit_btn" type="submit" value="Submit"></input>
+			<ul id="namelist"></ul>        
+		</div>
+		
+        <script type="text/javascript" src="/ui/main.js">
+        </script> 
+    </body>
+</html>
