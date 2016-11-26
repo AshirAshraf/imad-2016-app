@@ -26,8 +26,8 @@
 		res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 	});
 
-	app.get('/pic.png', function (req, res) {
-	  res.sendFile(path.join(__dirname, 'ui', 'pic.png'));
+	app.get('/pic.jpg', function (req, res) {
+	  res.sendFile(path.join(__dirname, 'ui', 'pic.jpg'));
 	});
 	
 	
