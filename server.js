@@ -30,6 +30,14 @@
 	  res.sendFile(path.join(__dirname, 'ui', 'pic.jpg'));
 	});
 	
+	app.get('/how-to-root.html', function (req, res) {
+	  res.sendFile(path.join(__dirname, 'ui', 'how-to-root.html'));
+	});
+	
+	app.get('/installing-cm13.html', function (req, res) {
+	  res.sendFile(path.join(__dirname, 'ui', 'installing-cm13.html'));
+	});
+	
 	
 	
 
